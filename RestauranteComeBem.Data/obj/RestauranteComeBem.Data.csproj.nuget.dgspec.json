@@ -1,0 +1,246 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\wf_heber\\RestauranteComeBem\\RestauranteComeBem.Data\\RestauranteComeBem.Data.csproj": {}
+  },
+  "projects": {
+    "C:\\wf_heber\\RestauranteComeBem\\RestauranteComeBem.Common\\RestauranteComeBem.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\wf_heber\\RestauranteComeBem\\RestauranteComeBem.Common\\RestauranteComeBem.Common.csproj",
+        "projectName": "RestauranteComeBem.Common",
+        "projectPath": "C:\\wf_heber\\RestauranteComeBem\\RestauranteComeBem.Common\\RestauranteComeBem.Common.csproj",
+        "packagesPath": "C:\\Users\\Heber Gustavo\\.nuget\\packages\\",
+        "outputPath": "C:\\wf_heber\\RestauranteComeBem\\RestauranteComeBem.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Heber Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Refit": {
+              "target": "Package",
+              "version": "[5.2.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\wf_heber\\RestauranteComeBem\\RestauranteComeBem.Data\\RestauranteComeBem.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\wf_heber\\RestauranteComeBem\\RestauranteComeBem.Data\\RestauranteComeBem.Data.csproj",
+        "projectName": "RestauranteComeBem.Data",
+        "projectPath": "C:\\wf_heber\\RestauranteComeBem\\RestauranteComeBem.Data\\RestauranteComeBem.Data.csproj",
+        "packagesPath": "C:\\Users\\Heber Gustavo\\.nuget\\packages\\",
+        "outputPath": "C:\\wf_heber\\RestauranteComeBem\\RestauranteComeBem.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Heber Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\wf_heber\\RestauranteComeBem\\RestauranteComeBem.Common\\RestauranteComeBem.Common.csproj": {
+                "projectPath": "C:\\wf_heber\\RestauranteComeBem\\RestauranteComeBem.Common\\RestauranteComeBem.Common.csproj"
+              },
+              "C:\\wf_heber\\RestauranteComeBem\\RestauranteComeBem.Domain\\RestauranteComeBem.Domain.csproj": {
+                "projectPath": "C:\\wf_heber\\RestauranteComeBem\\RestauranteComeBem.Domain\\RestauranteComeBem.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\wf_heber\\RestauranteComeBem\\RestauranteComeBem.Domain\\RestauranteComeBem.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\wf_heber\\RestauranteComeBem\\RestauranteComeBem.Domain\\RestauranteComeBem.Domain.csproj",
+        "projectName": "RestauranteComeBem.Domain",
+        "projectPath": "C:\\wf_heber\\RestauranteComeBem\\RestauranteComeBem.Domain\\RestauranteComeBem.Domain.csproj",
+        "packagesPath": "C:\\Users\\Heber Gustavo\\.nuget\\packages\\",
+        "outputPath": "C:\\wf_heber\\RestauranteComeBem\\RestauranteComeBem.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Heber Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\wf_heber\\RestauranteComeBem\\RestauranteComeBem.Common\\RestauranteComeBem.Common.csproj": {
+                "projectPath": "C:\\wf_heber\\RestauranteComeBem\\RestauranteComeBem.Common\\RestauranteComeBem.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Effortless.Net.Encryption": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "NETCore.Encrypt": {
+              "target": "Package",
+              "version": "[2.0.9, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

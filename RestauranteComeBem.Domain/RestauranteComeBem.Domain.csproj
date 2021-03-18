@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Effortless.Net.Encryption" Version="3.3.0" />
+    <PackageReference Include="NETCore.Encrypt" Version="2.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RestauranteComeBem.Common\RestauranteComeBem.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\Body\" />
+    <Folder Include="Models\EntityDomain\" />
+    <Folder Include="Models\NotMapped\" />
+  </ItemGroup>
+
+</Project>

@@ -3,7 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestauranteComeBem", "RestauranteComeBem\RestauranteComeBem.csproj", "{ACD759FF-42EC-4BF1-A4C5-7554416E40BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestauranteComeBem.Portal", "RestauranteComeBem\RestauranteComeBem.Portal.csproj", "{ACD759FF-42EC-4BF1-A4C5-7554416E40BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Portal", "0-Portal", "{6852DCDC-9D64-4485-AABF-CB413EED6590}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Domain", "1-Domain", "{9F51AC86-96E0-4C91-B3B1-CD43CAF91C58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Data", "2-Data", "{F5FE8A33-C211-40DC-A1CD-05AE0E4C3A6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Utils", "3-Utils", "{00A273B1-5A2F-4E18-B7C0-620359EBECB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Migration", "4-Migration", "{75F69689-7E6D-4453-A670-8ADE069AEF4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestauranteComeBem.Domain", "RestauranteComeBem.Domain\RestauranteComeBem.Domain.csproj", "{E5E36888-45CF-4129-9228-BBA0140C2E09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestauranteComeBem.Data", "RestauranteComeBem.Data\RestauranteComeBem.Data.csproj", "{D07CBEC9-054E-4B10-8920-BB5F5FD74459}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestauranteComeBem.Common", "RestauranteComeBem.Common\RestauranteComeBem.Common.csproj", "{16E117EE-AF64-4108-AFDD-3E8109E0AC07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestauranteComeBem.CrossCutting", "RestauranteComeBem.CrossCutting\RestauranteComeBem.CrossCutting.csproj", "{3CEE2CA3-D856-47BD-8BCF-64642CB6FBF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestauranteComeBem.Migration", "RestauranteComeBem.Migration\RestauranteComeBem.Migration.csproj", "{3B963C2B-A206-4B57-86F7-43488BA2D373}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +35,37 @@ Global
 		{ACD759FF-42EC-4BF1-A4C5-7554416E40BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACD759FF-42EC-4BF1-A4C5-7554416E40BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACD759FF-42EC-4BF1-A4C5-7554416E40BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5E36888-45CF-4129-9228-BBA0140C2E09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5E36888-45CF-4129-9228-BBA0140C2E09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5E36888-45CF-4129-9228-BBA0140C2E09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5E36888-45CF-4129-9228-BBA0140C2E09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D07CBEC9-054E-4B10-8920-BB5F5FD74459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D07CBEC9-054E-4B10-8920-BB5F5FD74459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D07CBEC9-054E-4B10-8920-BB5F5FD74459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D07CBEC9-054E-4B10-8920-BB5F5FD74459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E117EE-AF64-4108-AFDD-3E8109E0AC07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E117EE-AF64-4108-AFDD-3E8109E0AC07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E117EE-AF64-4108-AFDD-3E8109E0AC07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E117EE-AF64-4108-AFDD-3E8109E0AC07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CEE2CA3-D856-47BD-8BCF-64642CB6FBF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CEE2CA3-D856-47BD-8BCF-64642CB6FBF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CEE2CA3-D856-47BD-8BCF-64642CB6FBF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CEE2CA3-D856-47BD-8BCF-64642CB6FBF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B963C2B-A206-4B57-86F7-43488BA2D373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B963C2B-A206-4B57-86F7-43488BA2D373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B963C2B-A206-4B57-86F7-43488BA2D373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B963C2B-A206-4B57-86F7-43488BA2D373}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACD759FF-42EC-4BF1-A4C5-7554416E40BA} = {6852DCDC-9D64-4485-AABF-CB413EED6590}
+		{E5E36888-45CF-4129-9228-BBA0140C2E09} = {9F51AC86-96E0-4C91-B3B1-CD43CAF91C58}
+		{D07CBEC9-054E-4B10-8920-BB5F5FD74459} = {F5FE8A33-C211-40DC-A1CD-05AE0E4C3A6A}
+		{16E117EE-AF64-4108-AFDD-3E8109E0AC07} = {00A273B1-5A2F-4E18-B7C0-620359EBECB3}
+		{3CEE2CA3-D856-47BD-8BCF-64642CB6FBF7} = {00A273B1-5A2F-4E18-B7C0-620359EBECB3}
+		{3B963C2B-A206-4B57-86F7-43488BA2D373} = {75F69689-7E6D-4453-A670-8ADE069AEF4D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8E8A8ECE-FB0A-43F5-BFCC-255ABAB60DCB}
