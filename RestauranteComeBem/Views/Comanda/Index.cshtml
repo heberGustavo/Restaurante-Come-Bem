@@ -1,0 +1,96 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <div class="row">
+        <div class="col-md-9">
+            <h3>Comanda - Mesa 1</h3>
+        </div>
+        <div class="col-md-3">
+            <button type="submit" class="btn btn-primary">Salvar</button>
+        </div>
+    </div>
+
+    <form>
+        <div class="form-row">
+            <div class="form-group bmd-form-group col-md-6">
+                <label for="exampleInput2" class="bmd-label-floating">Nome Cliente</label>
+                <input type="text" class="form-control" id="exampleInput2">
+            </div>
+            <div class="form-group bmd-form-group col-md-6">
+                <label class="label-control">Data</label>
+                <input type="text" class="form-control datetimepicker" value="@DateTime.Now.Day/@DateTime.Now.Month/@DateTime.Now.Year" />
+            </div>
+        </div>
+    </form>
+    <h3>Produtos da mesa</h3>
+    <div class="row">
+        <div class="form-group bmd-form-group col-md-6">
+            <label for="inputEmail4">Buscar produto</label>
+            <input type="text" class="form-control" id="inputEmail4" placeholder="Calabresa">
+        </div>
+        <div class="form-group bmd-form-group col-md-3">
+            <label for="exampleInput2" class="bmd-label-floating">Quantidade</label>
+            <input type="text" class="form-control" id="exampleInput2">
+        </div>
+        <div class="col-md-3">
+            <button class="btn btn-sm btn-primary">Incluir</button>
+        </div>
+    </div>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome do Produto</th>
+                <th scope="col">Quantidade</th>
+                <th scope="col">Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Paster de Carne</td>
+                <td>20</td>
+                <td>
+                    <button class="btn btn-info btn-sm"><span class="material-icons">create</span></button>
+                    <button class="btn btn-danger btn-sm"><span class="material-icons">delete_forever</span></button>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Sorvete de Limão</td>
+                <td>10</td>
+                <td>
+                    <button class="btn btn-info btn-sm"><span class="material-icons">create</span></button>
+                    <button class="btn btn-danger btn-sm"><span class="material-icons">delete_forever</span></button>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Pizza de Calabresa</td>
+                <td>3</td>
+                <td>
+                    <button class="btn btn-info btn-sm"><span class="material-icons">create</span></button>
+                    <button class="btn btn-danger btn-sm"><span class="material-icons">delete_forever</span></button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<script type="text/javascript">
+    $('.datetimepicker').datetimepicker({
+        icons: {
+        time: "fa fa-clock-o",
+        date: "fa fa-calendar",
+        up: "fa fa-chevron-up",
+        down: "fa fa-chevron-down",
+        previous: 'fa fa-chevron-left',
+        next: 'fa fa-chevron-right',
+        today: 'fa fa-screenshot',
+        clear: 'fa fa-trash',
+        close: 'fa fa-remove'
+        }
+    });
+</script>

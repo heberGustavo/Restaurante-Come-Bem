@@ -7,3 +7,13 @@ C:\wf_heber\RestauranteComeBem\RestauranteComeBem.Common\obj\Debug\netstandard2.
 C:\wf_heber\RestauranteComeBem\RestauranteComeBem.Common\obj\Debug\netstandard2.0\RestauranteComeBem.Common.csproj.CoreCompileInputs.cache
 C:\wf_heber\RestauranteComeBem\RestauranteComeBem.Common\obj\Debug\netstandard2.0\RestauranteComeBem.Common.dll
 C:\wf_heber\RestauranteComeBem\RestauranteComeBem.Common\obj\Debug\netstandard2.0\RestauranteComeBem.Common.pdb
+C:\wf_heber\_Pessoal\Restaurante-Come-Bem\RestauranteComeBem.Common\bin\Debug\netstandard2.0\RestauranteComeBem.Common.deps.json
+C:\wf_heber\_Pessoal\Restaurante-Come-Bem\RestauranteComeBem.Common\bin\Debug\netstandard2.0\RestauranteComeBem.Common.dll
+C:\wf_heber\_Pessoal\Restaurante-Come-Bem\RestauranteComeBem.Common\bin\Debug\netstandard2.0\RestauranteComeBem.Common.pdb
+C:\wf_heber\_Pessoal\Restaurante-Come-Bem\RestauranteComeBem.Common\obj\Debug\netstandard2.0\RestauranteComeBem.Common.csprojAssemblyReference.cache
+C:\wf_heber\_Pessoal\Restaurante-Come-Bem\RestauranteComeBem.Common\obj\Debug\netstandard2.0\RefitStubs.g.cs
+C:\wf_heber\_Pessoal\Restaurante-Come-Bem\RestauranteComeBem.Common\obj\Debug\netstandard2.0\RestauranteComeBem.Common.AssemblyInfoInputs.cache
+C:\wf_heber\_Pessoal\Restaurante-Come-Bem\RestauranteComeBem.Common\obj\Debug\netstandard2.0\RestauranteComeBem.Common.AssemblyInfo.cs
+C:\wf_heber\_Pessoal\Restaurante-Come-Bem\RestauranteComeBem.Common\obj\Debug\netstandard2.0\RestauranteComeBem.Common.csproj.CoreCompileInputs.cache
+C:\wf_heber\_Pessoal\Restaurante-Come-Bem\RestauranteComeBem.Common\obj\Debug\netstandard2.0\RestauranteComeBem.Common.dll
+C:\wf_heber\_Pessoal\Restaurante-Come-Bem\RestauranteComeBem.Common\obj\Debug\netstandard2.0\RestauranteComeBem.Common.pdb

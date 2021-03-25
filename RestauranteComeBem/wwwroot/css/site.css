@@ -89,6 +89,149 @@ html {
 }
 
 /* CSS CUSTOM */
+/* PALETA DE CORES */
+
+
+/* GERAIS */
+.icone-mesa {
+    font-size: 50px;
+}
+
+.box-mesa {
+    text-align: center;
+    border: 1px solid #e4e4e4;
+    border-radius: 20px;
+}
+
+/* LOGIN */
+#fundo_login {
+    background: url(../imagens/login.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+/* NAVBAR */
+header {
+    position: relative;
+    z-index: 10;
+}
+
+.vertical-nav {
+    min-width: 17rem;
+    width: 17rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+}
+
+.page-content {
+    width: calc(100% - 17rem);
+    margin-left: 17rem;
+    transition: all 0.4s;
+}
+
+#img_perfil_usuario {
+    transition: 2s;
+    width: 75px;
+}
+
+    #img_perfil_usuario:hover {
+        width: 100px;
+    }
+
+#sidebar.active {
+    margin-left: -17rem;
+}
+
+#content.active {
+    width: 100%;
+    margin: 0;
+}
+
+#sidebarCollapse {
+    padding: 10px 13px;
+    margin-left: 10px;
+    margin-right: -54px;
+}
+
+.item-dropdown-lateral {
+    top: 25px !important;
+    left: 150px !important;
+    z-index: 99999;
+}
+
+#sidebar .media-body h4,
+#sidebar .media-body p {
+    color: #ffffff;
+}
+
+#sidebar ul li:hover {
+    background: #EEEEEE;
+}
+
+#sidebar ul li.active {
+    background: #EEEEEE;
+}
+
+#sidebar ul a {
+    font-size: 15px;
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -17rem;
+    }
+
+        #sidebar.active {
+            margin-left: 0;
+        }
+
+    #content {
+        width: 100%;
+        margin: 0;
+    }
+
+        #content.active {
+            margin-left: 17rem;
+            width: calc(100% - 17rem);
+        }
+}
+
+/* MODAL */
+.modal .modal-title {
+    margin: auto;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.modal .close {
+    margin: 0;
+    padding: 0;
+}
+
+/* CARD PRINCIPAL */
+.card-custom {
+    border-radius: 7px;
+    padding: 20px;
+    box-shadow: -1px -1px 16px 1px black;
+    background: linear-gradient(60deg, #f3f3f3, #f5f5f5);
+}
+
+.card-custom-header {
+    color: white;
+    border-radius: 7px;
+    padding: 20px;
+    box-shadow: -2px -1px 8px -1px #000000b8;
+    background: linear-gradient(60deg, #0a0a0a, #717171);
+}
+
+.input-busca {
+    width: 400px !important;
+}
+
+/* TELA - Mesa em Atendimento */
 .fundo_vermelho {
     background: rgb(0,0,0);
     background: linear-gradient(7deg, rgba(0,0,0,1) 0%, rgba(164,4,4,1) 43%, rgba(0,0,0,1) 100%);

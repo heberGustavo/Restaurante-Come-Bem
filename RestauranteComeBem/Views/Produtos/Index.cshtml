@@ -1,0 +1,109 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="card-custom">
+    <div class="row">
+        <div class="col-md-4 card-custom-header">
+            <span class="material-icons">category</span>
+            <h3 class="d-inline">Produtos</h3>
+        </div>
+        <div class="col-md-9">
+            <form class="form-inline ml-auto">
+                <div class="form-group no-border">
+                    <input type="text" class="form-control input-busca" placeholder="Buscar">
+                </div>
+                <button type="submit" class="btn btn-dark btn-just-icon btn-round">
+                    <i class="material-icons">search</i>
+                </button>
+            </form>
+        </div>
+        <div class="col-md-3">
+            <button class="btn btn-primary" data-toggle="modal" data-target="#modalProduto">Cadastrar Produto</button>
+        </div>
+    </div>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome do Produto</th>
+                <th scope="col">Categoria</th>
+                <th scope="col">Ingredientes</th>
+                <th scope="col">Preço</th>
+                <th scope="col">Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Calabresa 2</td>
+                <td>Pizza</td>
+                <td>Calabresa, Mussarela, Catupiry e Cebola</td>
+                <td>R$ 39,90</td>
+                <td>
+                    <button class="btn btn-info btn-sm"><span class="material-icons">create</span></button>
+                    <button class="btn btn-danger btn-sm"><span class="material-icons">delete_forever</span></button>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>3 Queijos</td>
+                <td>Pizza</td>
+                <td>Mussarela, Queijo Prato, Queijo Chester</td>
+                <td>R$ 35,90</td>
+                <td>
+                    <button class="btn btn-info btn-sm"><span class="material-icons">create</span></button>
+                    <button class="btn btn-danger btn-sm"><span class="material-icons">delete_forever</span></button>
+                </td>
+            <tr>
+                <th scope="row">3</th>
+                <td>Presunto e Queijo</td>
+                <td>Pastel</td>
+                <td>Presunto, Queijo e Oregano</td>
+                <td>R$ 12,90</td>
+                <td>
+                    <button class="btn btn-info btn-sm"><span class="material-icons">create</span></button>
+                    <button class="btn btn-danger btn-sm"><span class="material-icons">delete_forever</span></button>
+                </td>
+        </tbody>
+    </table>
+</div>
+
+<!-- Modal Cadastrar Categoria -->
+<div class="modal fade" id="modalProduto" tabindex="-1" role="dialog" aria-labelledby="modalProdutoTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Cadastro de Produto</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group mb-0 bmd-form-group col-md-12">
+                            <label for="exampleInput2" class="bmd-label-floating">Nome do Produto</label>
+                            <input type="text" class="form-control" id="exampleInput2">
+                        </div>
+                        <div class="form-group mb-0 bmd-form-group col-md-12">
+                            <label for="exampleInput2" class="bmd-label-floating">Ingredientes</label>
+                            <input type="text" class="form-control" id="exampleInput2">
+                        </div>
+                        <div class="form-group mb-0 bmd-form-group col-md-6">
+                            <label for="exampleInput2" class="bmd-label-floating">Preço</label>
+                            <input type="text" class="form-control" id="exampleInput2">
+                        </div>
+                        <div class="form-group mb-0 bmd-form-group col-md-6">
+                            <label for="exampleInput2" class="bmd-label-floating">Select com categorias</label>
+                            <input type="text" class="form-control" id="exampleInput2">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Salvar</button>
+            </div>
+        </div>
+    </div>
+</div>
