@@ -5811,23 +5811,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
+    "C:\\Users\\Heber Gustavo\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\wf_heber\\_Pessoal\\Restaurante-Come-Bem\\RestauranteComeBem.Migration\\RestauranteComeBem.Migration.csproj",
+      "projectUniqueName": "C:\\wf_heber\\Restaurante-Come-Bem\\RestauranteComeBem.Migration\\RestauranteComeBem.Migration.csproj",
       "projectName": "RestauranteComeBem.Migration",
-      "projectPath": "C:\\wf_heber\\_Pessoal\\Restaurante-Come-Bem\\RestauranteComeBem.Migration\\RestauranteComeBem.Migration.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\wf_heber\\_Pessoal\\Restaurante-Come-Bem\\RestauranteComeBem.Migration\\obj\\",
+      "projectPath": "C:\\wf_heber\\Restaurante-Come-Bem\\RestauranteComeBem.Migration\\RestauranteComeBem.Migration.csproj",
+      "packagesPath": "C:\\Users\\Heber Gustavo\\.nuget\\packages\\",
+      "outputPath": "C:\\wf_heber\\Restaurante-Come-Bem\\RestauranteComeBem.Migration\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Heber Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -5842,11 +5842,11 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\wf_heber\\_Pessoal\\Restaurante-Come-Bem\\RestauranteComeBem.Common\\RestauranteComeBem.Common.csproj": {
-              "projectPath": "C:\\wf_heber\\_Pessoal\\Restaurante-Come-Bem\\RestauranteComeBem.Common\\RestauranteComeBem.Common.csproj"
+            "C:\\wf_heber\\Restaurante-Come-Bem\\RestauranteComeBem.Common\\RestauranteComeBem.Common.csproj": {
+              "projectPath": "C:\\wf_heber\\Restaurante-Come-Bem\\RestauranteComeBem.Common\\RestauranteComeBem.Common.csproj"
             },
-            "C:\\wf_heber\\_Pessoal\\Restaurante-Come-Bem\\RestauranteComeBem.Domain\\RestauranteComeBem.Domain.csproj": {
-              "projectPath": "C:\\wf_heber\\_Pessoal\\Restaurante-Come-Bem\\RestauranteComeBem.Domain\\RestauranteComeBem.Domain.csproj"
+            "C:\\wf_heber\\Restaurante-Come-Bem\\RestauranteComeBem.Domain\\RestauranteComeBem.Domain.csproj": {
+              "projectPath": "C:\\wf_heber\\Restaurante-Come-Bem\\RestauranteComeBem.Domain\\RestauranteComeBem.Domain.csproj"
             }
           }
         }
@@ -5886,7 +5886,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
       }
     }
   },
