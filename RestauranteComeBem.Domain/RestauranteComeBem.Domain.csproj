@@ -15,7 +15,6 @@
 
   <ItemGroup>
     <Folder Include="Models\Body\" />
-    <Folder Include="Models\EntityDomain\" />
     <Folder Include="Models\NotMapped\" />
   </ItemGroup>
 

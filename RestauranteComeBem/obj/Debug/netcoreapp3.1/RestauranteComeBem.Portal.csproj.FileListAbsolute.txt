@@ -776,6 +776,7 @@ C:\wf_heber\_Pessoal\Restaurante-Come-Bem\RestauranteComeBem\obj\Debug\netcoreap
 C:\wf_heber\_Pessoal\Restaurante-Come-Bem\RestauranteComeBem\obj\Debug\netcoreapp3.1\RestauranteComeBem.Portal.genruntimeconfig.cache
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\bin\Debug\netcoreapp3.1\appsettings.json
+C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\bin\Debug\netcoreapp3.1\libman.json
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\bin\Debug\netcoreapp3.1\RestauranteComeBem.Portal.exe
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\bin\Debug\netcoreapp3.1\RestauranteComeBem.Portal.deps.json
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\bin\Debug\netcoreapp3.1\RestauranteComeBem.Portal.runtimeconfig.json
@@ -1059,6 +1060,9 @@ C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\bin\Debug\netcoreapp3.1\Rest
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\bin\Debug\netcoreapp3.1\RestauranteComeBem.Portal.Views.pdb
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\bin\Debug\netcoreapp3.1\Azure.Core.dll
+C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\bin\Debug\netcoreapp3.1\Azure.Storage.Blobs.dll
+C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\bin\Debug\netcoreapp3.1\Azure.Storage.Common.dll
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\bin\Debug\netcoreapp3.1\Dapper.dll
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\bin\Debug\netcoreapp3.1\Dapper.Contrib.dll
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\bin\Debug\netcoreapp3.1\dbup-core.dll
@@ -1068,6 +1072,7 @@ C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\bin\Debug\netcoreapp3.1\Micr
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\bin\Debug\netcoreapp3.1\Microsoft.Azure.Services.AppAuthentication.dll
+C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
