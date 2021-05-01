@@ -1159,7 +1159,6 @@ C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\obj\Debug\netcoreapp3.1\Razo
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Index.cshtml.g.cs
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutAcessoInterno.cshtml.g.cs
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutSorteio.cshtml.g.cs
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\Index.cshtml.g.cs
@@ -1172,3 +1171,4 @@ C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\obj\Debug\netcoreapp3.1\Rest
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\obj\Debug\netcoreapp3.1\RestauranteComeBem.Portal.dll
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\obj\Debug\netcoreapp3.1\RestauranteComeBem.Portal.pdb
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\obj\Debug\netcoreapp3.1\RestauranteComeBem.Portal.genruntimeconfig.cache
+C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutExterno.cshtml.g.cs

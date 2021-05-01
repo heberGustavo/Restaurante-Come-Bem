@@ -26,3 +26,4 @@ C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem.Common\obj\Debug\netstandard
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem.Common\obj\Debug\netstandard2.0\RestauranteComeBem.Common.csproj.CoreCompileInputs.cache
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem.Common\obj\Debug\netstandard2.0\RestauranteComeBem.Common.dll
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem.Common\obj\Debug\netstandard2.0\RestauranteComeBem.Common.pdb
+C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem.Common\obj\Debug\netstandard2.0\RestauranteComeBem.Common.csprojAssemblyReference.cache

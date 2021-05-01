@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -14,6 +15,7 @@ using RestauranteComeBem.Domain.IBusiness.Migration;
 using RestauranteComeBem.Portal.Utils;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -61,7 +63,7 @@ namespace RestauranteComeBem
                    options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
                    options.Cookie.SameSite = SameSiteMode.None;
                    options.Cookie.Name = ".Restaurante.AuthCookie";
-                   options.LoginPath = "/Home/Login";
+                   options.LoginPath = "/Home/Index";
                    options.LogoutPath = "/Logout";
                    options.Cookie.MaxAge = TimeSpan.FromDays(1);
                });
@@ -76,6 +78,16 @@ namespace RestauranteComeBem
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, [FromServices] IMigrationBusiness migrationBusiness)
         {
+            #region Definindo a cultura padrão: pt-BR
+            var supportedCultures = new[] { new CultureInfo("pt-BR") };
+            app.UseRequestLocalization(new RequestLocalizationOptions
+            {
+                DefaultRequestCulture = new RequestCulture(culture: "pt-BR", uiCulture: "pt-BR"),
+                SupportedCultures = supportedCultures,
+                SupportedUICultures = supportedCultures
+            });
+            #endregion
+
             migrationBusiness.ExecutarAtualizacaoBancoDados();
 
             if (env.IsDevelopment())
