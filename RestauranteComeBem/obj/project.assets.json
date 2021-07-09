@@ -6385,25 +6385,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Heber Gustavo\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\T-Gamer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\wf_heber\\Restaurante-Come-Bem\\RestauranteComeBem\\RestauranteComeBem.Portal.csproj",
+      "projectUniqueName": "C:\\Users\\T-Gamer\\source\\repos\\Restaurante-Come-Bem\\RestauranteComeBem\\RestauranteComeBem.Portal.csproj",
       "projectName": "RestauranteComeBem.Portal",
-      "projectPath": "C:\\wf_heber\\Restaurante-Come-Bem\\RestauranteComeBem\\RestauranteComeBem.Portal.csproj",
-      "packagesPath": "C:\\Users\\Heber Gustavo\\.nuget\\packages\\",
-      "outputPath": "C:\\wf_heber\\Restaurante-Come-Bem\\RestauranteComeBem\\obj\\",
+      "projectPath": "C:\\Users\\T-Gamer\\source\\repos\\Restaurante-Come-Bem\\RestauranteComeBem\\RestauranteComeBem.Portal.csproj",
+      "packagesPath": "C:\\Users\\T-Gamer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\T-Gamer\\source\\repos\\Restaurante-Come-Bem\\RestauranteComeBem\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Heber Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\T-Gamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -6416,8 +6411,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\wf_heber\\Restaurante-Come-Bem\\RestauranteComeBem.CrossCutting\\RestauranteComeBem.CrossCutting.csproj": {
-              "projectPath": "C:\\wf_heber\\Restaurante-Come-Bem\\RestauranteComeBem.CrossCutting\\RestauranteComeBem.CrossCutting.csproj"
+            "C:\\Users\\T-Gamer\\source\\repos\\Restaurante-Come-Bem\\RestauranteComeBem.CrossCutting\\RestauranteComeBem.CrossCutting.csproj": {
+              "projectPath": "C:\\Users\\T-Gamer\\source\\repos\\Restaurante-Come-Bem\\RestauranteComeBem.CrossCutting\\RestauranteComeBem.CrossCutting.csproj"
             }
           }
         }
@@ -6455,12 +6450,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.13, 3.1.13]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -6469,7 +6458,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "D:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   },

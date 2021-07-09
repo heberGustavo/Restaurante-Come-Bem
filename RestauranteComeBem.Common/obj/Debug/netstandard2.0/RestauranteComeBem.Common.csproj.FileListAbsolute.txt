@@ -27,3 +27,13 @@ C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem.Common\obj\Debug\netstandard
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem.Common\obj\Debug\netstandard2.0\RestauranteComeBem.Common.dll
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem.Common\obj\Debug\netstandard2.0\RestauranteComeBem.Common.pdb
 C:\wf_heber\Restaurante-Come-Bem\RestauranteComeBem.Common\obj\Debug\netstandard2.0\RestauranteComeBem.Common.csprojAssemblyReference.cache
+C:\Users\T-Gamer\source\repos\Restaurante-Come-Bem\RestauranteComeBem.Common\bin\Debug\netstandard2.0\RestauranteComeBem.Common.deps.json
+C:\Users\T-Gamer\source\repos\Restaurante-Come-Bem\RestauranteComeBem.Common\bin\Debug\netstandard2.0\RestauranteComeBem.Common.dll
+C:\Users\T-Gamer\source\repos\Restaurante-Come-Bem\RestauranteComeBem.Common\bin\Debug\netstandard2.0\RestauranteComeBem.Common.pdb
+C:\Users\T-Gamer\source\repos\Restaurante-Come-Bem\RestauranteComeBem.Common\obj\Debug\netstandard2.0\RestauranteComeBem.Common.csproj.AssemblyReference.cache
+C:\Users\T-Gamer\source\repos\Restaurante-Come-Bem\RestauranteComeBem.Common\obj\Debug\netstandard2.0\RefitStubs.g.cs
+C:\Users\T-Gamer\source\repos\Restaurante-Come-Bem\RestauranteComeBem.Common\obj\Debug\netstandard2.0\RestauranteComeBem.Common.AssemblyInfoInputs.cache
+C:\Users\T-Gamer\source\repos\Restaurante-Come-Bem\RestauranteComeBem.Common\obj\Debug\netstandard2.0\RestauranteComeBem.Common.AssemblyInfo.cs
+C:\Users\T-Gamer\source\repos\Restaurante-Come-Bem\RestauranteComeBem.Common\obj\Debug\netstandard2.0\RestauranteComeBem.Common.csproj.CoreCompileInputs.cache
+C:\Users\T-Gamer\source\repos\Restaurante-Come-Bem\RestauranteComeBem.Common\obj\Debug\netstandard2.0\RestauranteComeBem.Common.dll
+C:\Users\T-Gamer\source\repos\Restaurante-Come-Bem\RestauranteComeBem.Common\obj\Debug\netstandard2.0\RestauranteComeBem.Common.pdb

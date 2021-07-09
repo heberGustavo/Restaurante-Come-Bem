@@ -28,7 +28,7 @@ namespace RestauranteComeBem.Migration
             {
                 Debug.WriteLine("Erro ao rodar script");
                 Debug.WriteLine(result.Error);
-                Debug.WriteLine(result.Error.InnerException);
+                ddDebug.WriteLine(result.Error.InnerException);
             }
 
             return result.Successful;

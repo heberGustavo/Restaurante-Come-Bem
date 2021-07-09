@@ -62,8 +62,8 @@ namespace RestauranteComeBem
                    options.Cookie.HttpOnly = true;
                    options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
                    options.Cookie.SameSite = SameSiteMode.None;
-                   options.Cookie.Name = ".Restaurante.AuthCookie";
-                   options.LoginPath = "/Home/Index";
+                   options.Cookie.Name = ".RestauranteComBem.AuthCookie";
+                   options.LoginPath = "/Login/Index";
                    options.LogoutPath = "/Logout";
                    options.Cookie.MaxAge = TimeSpan.FromDays(1);
                });
@@ -108,7 +108,7 @@ namespace RestauranteComeBem
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Login}/{action=Index}/{id?}");
             });
         }
     }

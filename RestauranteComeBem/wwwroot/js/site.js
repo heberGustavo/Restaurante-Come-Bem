@@ -1,26 +1,4 @@
-﻿//Efeito Ancora
-$(document).on(
-    "click",
-    'a[href="#home"], a[href="#sorteio-em-andamento"]', function (e) {
+﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+// for details on configuring this project to bundle and minify static web assets.
 
-    var target = $(this).attr("href"); //Get the target
-    var scrollToPosition = $(target).offset().top - 70;
-
-    $('html,body').animate({ 'scrollTop': scrollToPosition }, 1000, function () {
-
-    });
-    window.location.hash = target;
-
-    e.preventDefault();
-
-    //Remove o nome da ancora da url
-    history.replaceState("", null, window.location.pathname);
-});
-
-$(function () {
-
-    $('#sidebarCollapse').on('click', function () {
-        $('#sidebar, #content').toggleClass('active');
-    });
-
-});
+// Write your JavaScript code.

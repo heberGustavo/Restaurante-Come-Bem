@@ -2,140 +2,114 @@
 <html lang="pt-br">
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
-    <title>@ViewData["Title"] - Sorteio</title>
-
-    <!-- ICONES -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Restaurante Come Bem</title>
+    <link href="~/css/MaterialDesign/material-kit.css?v=2.0.4" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
-    <link href="~/css/material-kit.css?v=2.0.4" rel="stylesheet" />
-
-    <!-- Datatable -->
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css" />
-
-    <!-- Editor de Texto -->
-    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
-
-    <!-- Input File -->
-    <link href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/wtf-forms.css" rel="stylesheet">
-    
-
     <link rel="stylesheet" href="~/css/site.css" />
-
-    <!-- JS -->
-    <script src="~/js/core/jquery.min.js" asp-append-version="true" type="text/javascript"></script>
-
 </head>
-<body class="landing-page sidebar-collapse acesso-interno">
-
-    <div class="vertical-nav fundo_vermelho" id="sidebar">
-        <div class="py-4 px-3 mb-4">
-            <div class="media d-flex align-items-center">
-                <a asp-controller="Perfil" asp-action="Index">
-                    <img src="~/img/usuarios/teste.jpg" alt="..." class="mr-3 rounded-circle img-thumbnail shadow-sm img-perfil">
-                </a>
-                <div class="media-body">
-                    <h4 class="font-weight-bold text-light m-0">Kingnaldo</h4>
-                    <p class="font-weight-bold text-light mb-0">Administrador</p>
+<body>
+    <header>
+        <div class="vertical-nav bg-white" id="sidebar">
+            <div class="py-4 px-3 mb-2 bg-dark">
+                <div class="media d-flex align-items-center">
+                    <a asp-controller="Perfil" asp-action="Index" class="w-100 text-center">
+                        <img id="img_perfil_usuario" src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="..." width="65" class="mr-3 rounded-circle img-thumbnail shadow-sm">
+                        <div class="media-body">
+                            <h4 class="m-0 font-weight-bold">Heber Gustavo</h4>
+                            <p class="font-weight-light mb-0">Administrador</p>
+                        </div>
+                    </a>
                 </div>
             </div>
-        </div>
-
-        <hr class="bg-light" />
-
-        <ul class="nav flex-column mb-0">
-            <li class="nav-item">
-                <i class="material-icons mr-3 text-light">bookmark_add</i>
-                <div class="dropdown display-inline-block">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonProdutos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <ul class="nav flex-column bg-white mb-0">
+                <li class="nav-item active">
+                    <a asp-controller="Home" asp-action="Index" class="nav-link text-dark">
+                        <span class="material-icons mr-3 text-primary">dashboard</span>
+                        Dashboard
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle text-dark" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="material-icons mr-3 text-primary">add_shopping_cart</span>
                         Mesas
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonProdutos">
+                    </a>
+                    <div class="dropdown-menu item-dropdown-lateral" aria-labelledby="navbarDropdownMenuLink">
                         <a asp-controller="Mesas" asp-action="EmAtendimento" class="dropdown-item">Em Atendimento</a>
-                        <a asp-controller="Mesas" asp-action="Disponiveis" class="dropdown-item">Disponiveis</a>
-                        <a asp-controller="Mesas" asp-action="Gerenciamento" class="dropdown-item">Gerenciamento</a>
+                        <a asp-controller="Mesas" asp-action="Disponiveis" class="dropdown-item">Disponíveis</a>
+                        <a asp-controller="Mesas" asp-action="Gerenciamento" class="dropdown-item">Gerenciar Mesas</a>
                     </div>
-                </div>
-            </li>
-            <li class="nav-item">
-                <i class="material-icons mr-3 text-light">category</i>
-                <div class="dropdown display-inline-block">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonProdutos" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle text-dark" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="material-icons mr-3 text-primary">inventory_2</span>
                         Produtos
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonProdutos">
+                    </a>
+                    <div class="dropdown-menu item-dropdown-lateral" aria-labelledby="navbarDropdownMenuLink">
                         <a asp-controller="Produtos" asp-action="Index" class="dropdown-item">Todos Produtos</a>
-                        <a asp-controller="CategoriaProduto" asp-action="Index" class="dropdown-item">Categorias</a>
-                        <a asp-controller="Produtos" asp-action="GerenciarItensAdicionais" class="dropdown-item">Adicionais</a>
+                        <a asp-controller="Produtos" asp-action="GerenciarItensAdicionais" class="dropdown-item">Gerenciar Itens Adicionais</a>
+                        <a asp-controller="CategoriaProduto" asp-action="Index" class="dropdown-item">Gerenciar Categorias de Produto</a>
                     </div>
+                </li>
+                <li class="nav-item">
+                    <a asp-controller="Usuarios" asp-action="Index" class="nav-link text-dark">
+                        <span class="material-icons mr-3 text-primary">group</span>
+                        Usuários
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a asp-controller="FluxoCaixa" asp-action="Index" class="nav-link text-dark">
+                        <span class="material-icons mr-3 text-primary">local_offer</span>
+                        Fluxo de Caixa
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="page-content p-2" id="content">
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <button id="sidebarCollapse" type="button" class="btn bg-white rounded-pill shadow-sm"><span class="material-icons text-dark">menu</span></button>
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="javascript:;">Algum item <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        Algum menu de configuração
+                    </span>
                 </div>
-            </li>
-            <li class="nav-item">
-                <a asp-controller="FluxoCaixa" asp-action="Index" class="nav-link text-light font-italic font-weight-bold">
-                    <i class="material-icons mr-3 text-light">account_balance</i>
-                    Fluxo de Caixa
-                </a>
-            </li>
-            <li class="nav-item">
-                <a asp-controller="Usuarios" asp-action="Index" class="nav-link text-light font-italic font-weight-bold">
-                    <i class="material-icons mr-3 text-light">account_balance</i>
-                    Usuarios
-                </a>
-            </li>
-            <li class="nav-item">
-                <a asp-controller="AcessoInterno" asp-action="FormasDePagamento" class="nav-link text-light font-italic font-weight-bold">
-                    <i class="material-icons mr-3 text-light">account_balance</i>
-                    Sair
-                </a>
-            </li>
-        </ul>
-
-        <hr class="bg-light" />
-
+            </div>
+        </nav>
+        <main role="main" class="bg-light pt-2 pl-5 pr-5">
+            @RenderBody()
+        </main>
+        <footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2020 - Restaurante Come Bem - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        </footer>
     </div>
 
-    <main role="main">
-        <div class="page-content" id="content">
-            <nav class="navbar navbar-expand-lg fundo_vermelho">
-                <div class="ml-2 mr-2 w-100">
-                    <div class="navbar-translate">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="navbar-toggler-icon"></span>
-                            <span class="navbar-toggler-icon"></span>
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </div>
+    <script src="~/js/core/jquery.min.js"></script>
+    <script src="~/js/core/popper.min.js"></script>
+    <script src="~/js/core/bootstrap-material-design.min.js"></script>
+    <script src="~/js/plugins/moment.min.js"></script>
+    <script src="~/js/MaterialDesign/material-kit.min.js?v=2.0.4"></script>
 
-                    <div class="collapse navbar-collapse">
-                        <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm btn-sm"><i class="fas fa-bars mr-2 text-dark"></i><small class="text-uppercase font-weight-bold">Menu</small></button>
-                    </div>
-                </div>
-            </nav>
-
-            @RenderBody()
-        </div>
-    </main>
-
-    <!-- JS -->
-    <script src="~/js/core/popper.min.js" asp-append-version="true" type="text/javascript"></script>
-    <script src="~/js/core/bootstrap-material-design.min.js" asp-append-version="true" type="text/javascript"></script>
-    <script src="~/js/plugins/moment.min.js" asp-append-version="true"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/js/bootstrap-select.min.js" integrity="sha512-yDlE7vpGDP7o2eftkCiPZ+yuUyEcaBwoJoIhdXv71KZWugFqEphIS3PU60lEkFaz8RxaVsMpSvQxMBaKVwA5xg==" crossorigin="anonymous"></script>
-    <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
-    <script src="~/js/plugins/bootstrap-datetimepicker.js" asp-append-version="true" type="text/javascript"></script>
-    <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-    <script src="~/js/plugins/nouislider.min.js" asp-append-version="true" type="text/javascript"></script>
-    <script src="~/js/material-kit.js?v=2.0.4" asp-append-version="true" type="text/javascript"></script>
-
-    <script src="~/js/plugins/pgwslideshow.js" asp-append-version="true"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-
     @RenderSection("Scripts", required: false)
+
+    <script type="text/javascript">
+        $(function () {
+            // Sidebar toggle behavior
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar, #content').toggleClass('active');
+            });
+        });
+    </script>
+
 </body>
 </html>
